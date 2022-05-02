@@ -25,7 +25,7 @@ var Juego = {
         juego.load.image('gasolina', 'img/gas.png');
         juego.load.audio('bgMusic', 'music/fondo1.mp3');
         juego.load.audio('impacto', 'music/glass_breaking.wav');
-        juego.load.audio('puntoSound', 'music/KSHMR_Game_FX_16_Extra_Life.wav');
+        juego.load.audio('puntoSound', 'music/gasolina.wav');
         juego.load.audio('gameOver', 'music/ThisGameIsOver.wav');
         juego.forceSingleUpdate = true;
     },
@@ -81,7 +81,7 @@ var Juego = {
 
         //declarar los audios 
         impacto = this.sound.add('impacto');
-        puntoSound = this.sound.add('puntos');
+        puntoSound = this.sound.add('puntoSound');
         gameOver = this.sound.add('gameOver');
 
     },
